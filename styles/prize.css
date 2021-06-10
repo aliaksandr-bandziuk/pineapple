@@ -1,0 +1,48 @@
+.prize {
+  background: linear-gradient(141.77deg, #FF9415 0%, #FFC709 100.82%);
+}
+
+.prize-title {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-bottom: 83px;
+  padding-top: 100px;
+  flex-basis: 30%;
+}
+
+.prize-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.prize-item {
+  max-width: 352px;
+}
+
+.prize-item__text {
+  width: 300px;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.prize-item__button {
+  width: 195px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 20px rgba(242, 153, 74, 0.25);
+  border-radius: 48px;
+  background: linear-gradient(141.77deg, #FF9415 0%, #FFC709 100.82%);
+}
+
+
+

@@ -1,0 +1,45 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  margin-top: 20px;
+  z-index: 20;
+  width: 90%;
+}
+
+.menu-items {
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  justify-content: flex-start;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  flex-basis: 100%;
+}
+
+.menu-item {
+  list-style: none;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  color: #F8AF2A;
+  /* display:inline-block; */
+  border-bottom:1px solid #F8AF2A;
+  padding-bottom: 30px;
+}
+
+.phone-button {
+  width: 178px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 53px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 14px;
+  color: #333333;
+}

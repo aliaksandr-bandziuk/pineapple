@@ -1,0 +1,45 @@
+.action-title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #F8AF2A;
+}
+
+.dotted-line {
+  text-align: center;
+  z-index: 1;
+}
+
+.action-rules {
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.action-rule:nth-child(1) {
+  margin-top: -300px;
+}
+
+.action-rule:nth-child(2) {
+  margin-top: -130px;
+}
+
+.action-rule:nth-child(3) {
+  margin-top: -330px;
+}
+
+.action-rule__text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 120%;
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+.action-rule__gold {
+  color: #F8AF2A;
+}

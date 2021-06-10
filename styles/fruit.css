@@ -1,0 +1,106 @@
+body {
+  background-color: #F0F1F3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.ftuit {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.fruit-about {
+  z-index: 1;
+}
+
+.fruit-about__description {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 80%;
+  /* or 36px */
+  color: #333333;
+}
+
+.bg-image__block {
+  position: absolute;
+  right: 0;
+}
+
+.fruit-about {
+  align-items: center;
+}
+
+h1 {
+  padding-top: 200px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  width: 55%;
+  z-index: 1;
+  align-items: center;
+}
+
+.yellow-font {
+  color: #F8AF2A;
+}
+
+.image-fruit__picture-1 {
+  position: absolute;
+  right: 550px;
+}
+
+.image-fruit__picture-2 {
+  position: absolute;
+  right: 450px;
+  top: 300px;
+}
+
+.image-fruit__picture-3 {
+  position: absolute;
+  top: 150px;
+  right: 50px;
+}
+
+.image-fruit__picture-4 {
+  position: absolute;
+  top: 310px;
+  right: 0;
+}
+
+.image-fruit__picture-5 {
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+.image-fruit__picture-7 {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+}
+
+.button-conditions {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 194px;
+  height: 50px;
+  border-radius: 48px;
+  box-shadow: 10px 10px 20px rgba(242, 153, 74, 0.25);
+  cursor: pointer;
+  color: #fff;
+  background: #F8AF2A;
+  border: none;
+}
+
+.arrow-down {
+  position: relative;
+  width: 5%;
+  margin: auto;
+  z-index: 5;
+  margin-bottom: 100px;
+}
