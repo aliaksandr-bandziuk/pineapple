@@ -65,3 +65,7 @@
   color: #FFFFFF;
   cursor: pointer;
 }
+
+.winners-fruit {
+  position: absolute;
+}
