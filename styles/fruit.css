@@ -1,5 +1,5 @@
 body {
-  background-color: #F0F1F3;
+  background: #F0F1F3;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -29,6 +29,7 @@ body {
 
 .bg-image__block {
   position: absolute;
+  top: 0;
   right: 0;
 }
 
@@ -40,7 +41,7 @@ h1 {
   padding-top: 200px;
   margin-bottom: 50px;
   font-size: 60px;
-  width: 55%;
+  width: 45%;
   z-index: 1;
   align-items: center;
 }
@@ -51,6 +52,7 @@ h1 {
 
 .image-fruit__picture-1 {
   position: absolute;
+  top: 0;
   right: 550px;
 }
 
@@ -85,8 +87,8 @@ h1 {
 }
 
 .button-conditions {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 25px;
   width: 194px;
   height: 50px;
   border-radius: 48px;
@@ -98,9 +100,7 @@ h1 {
 }
 
 .arrow-down {
-  position: relative;
-  width: 5%;
-  margin: auto;
-  z-index: 5;
+  display: flex;
+  justify-content: center;
   margin-bottom: 100px;
 }
