@@ -1,0 +1,38 @@
+.footer {
+  background: linear-gradient(141.77deg, #FF9415 0%, #FFC709 100.82%);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 66px;
+  padding-bottom: 66px;
+}
+
+.footer-wrapper__items {
+  display: flex;
+}
+
+.footer-wrapper__text {
+  margin-right: 40px;
+  line-height: 14px;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+  cursor: pointer;
+}
+
+.active-text {
+  color: #FFFFFF;
+}
+
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #FF9415;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+}
