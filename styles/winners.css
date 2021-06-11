@@ -1,0 +1,67 @@
+.winners-title {
+  margin-bottom: 100px;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #F8AF2A;
+}
+
+.winners-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.witters-tab {
+  align-items: center;
+  margin-right: 35px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #BDBDBD;
+  cursor: pointer;
+}
+
+.active {
+  text-align: center;
+  width: 188px;
+  height: 50px;
+  background: #F8AF2A;
+  box-shadow: 10px 10px 20px rgba(242, 153, 74, 0.25);
+  border-radius: 48px;
+  color: #fff;
+  align-items: center;
+}
+
+.winners-list {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.winners-list__item {
+  list-style: none;
+  margin-right: 23px;
+  margin-bottom: 25px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.all-winners {
+  width: 308px;
+  height: 50px;
+  background: #F8AF2A;
+  box-shadow: 10px 10px 20px rgba(242, 153, 74, 0.25);
+  border-radius: 48px;
+  border: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
