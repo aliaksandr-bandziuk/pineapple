@@ -144,3 +144,12 @@ h1 {
   }
 
 }
+
+@media (max-width: 990px) {
+
+  .prize-img__pineapple,
+  .prize-img__part1 {
+    display: none;
+  }
+
+}

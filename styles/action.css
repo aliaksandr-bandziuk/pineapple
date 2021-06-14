@@ -43,3 +43,44 @@
 .action-rule__gold {
   color: #F8AF2A;
 }
+
+@media (max-width: 1400px) {
+
+  .dotted-line {
+    display: none;
+  }
+
+  .action-rule:nth-child(1) {
+    margin: auto;
+  }
+
+  .action-rule:nth-child(2) {
+    margin: auto;
+  }
+
+  .action-rule:nth-child(3) {
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .action-title{
+    font-size: 30px;
+  }
+  
+  .action-rules {
+    display: block;
+    text-align: center;
+  }
+
+  .action-rule {
+    padding-bottom: 50px;
+  }
+
+  .action-rule__text {
+    margin: auto;
+  }
+
+}
