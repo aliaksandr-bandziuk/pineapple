@@ -12,6 +12,7 @@ body {
 .ftuit {
   display: flex;
   justify-content: space-between;
+  z-index: 10;
   /* align-items: center; */
 }
 
@@ -103,4 +104,43 @@ h1 {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+}
+
+@media (max-width: 1290px) {
+
+  .bg-image__block,
+  .image-fruit__picture-2 {
+    display: none;
+  }
+
+  .phone-button {
+    font-size: 16px;
+  }
+   
+}
+
+@media (max-width: 1024px) {
+
+  .image-fruit__picture-1,
+  .image-fruit__picture-4,
+  .image-fruit__picture-5 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .image-fruit {
+    display: none;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  .fruit-about {
+    text-align: center;
+  }
+
 }
