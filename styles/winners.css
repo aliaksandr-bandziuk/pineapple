@@ -37,7 +37,7 @@
 
 .winners-list {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -76,4 +76,13 @@
     display: none;
   }
 
+}
+
+@media (max-width: 850px) {
+  .winners-tabs {
+    flex-direction: column;
+  }
+  .winners-list {
+    padding: 0;
+  }
 }
