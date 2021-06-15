@@ -112,10 +112,6 @@ h1 {
   .image-fruit__picture-2 {
     display: none;
   }
-
-  .phone-button {
-    font-size: 16px;
-  }
    
 }
 
@@ -137,6 +133,8 @@ h1 {
 
   h1 {
     width: 100%;
+    padding-top: 120px;
+    font-size: 45px;
   }
 
   .fruit-about {
@@ -150,6 +148,17 @@ h1 {
   .prize-img__pineapple,
   .prize-img__part1 {
     display: none;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  h1 {
+    padding-top: 100px;
+  }
+  .arrow-down {
+    margin-bottom: 50px;
   }
 
 }
