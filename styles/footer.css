@@ -36,3 +36,27 @@
   border: 3px solid #000000;
   box-sizing: border-box;
 }
+
+@media (max-width: 950px) {
+
+  .footer-wrapper {
+    display: block;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+
+  .footer-wrapper__logo {
+    margin-bottom: 20px;
+  }
+
+  .footer-wrapper__items {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .footer-wrapper__text {
+    margin-right: 0;
+  }
+
+}
