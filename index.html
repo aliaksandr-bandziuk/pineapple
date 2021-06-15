@@ -18,22 +18,41 @@
 <body>
 
 <nav class="menu">
-  <div class="container">
-    <div class="menu-wrapper">
-      <div class="menu-logo">
-        <img src="pictures/vectors/hlebny-dom-logo.png" alt="">
+  <!-- <div class="menu-container__wrapper"> -->
+    <div class="container">
+
+      <!-- Мобильное меню вместе с бургером -->
+      <div class="mobile-menu">
+        <div class="mobile-menu__img mobile-menu__img-open">
+        </div> 
+        <div class="mobile-menu__list mobile-menu__list-hidden">
+          <ul class="mobile-menu__items">
+            <li class="mobile-menu__item"><a href="#conditions">Условия</a></li>
+            <li class="mobile-menu__item"><a href="#prizes">Призы</a></li>
+            <li class="mobile-menu__item"><a href="#winners">Победители</a></li>
+          </ul>
+          <button class="mobile-phone__button">+7 962 555-55-55</button>
+        </div>   
       </div>
-        <ul class="menu-items">
-          <li class="menu-item">Условия</li>
-          <li class="menu-item">Призы</li>
-          <li class="menu-item">Победители</li>
-          <!-- <li class="menu-item phone-button">+7 962 555-55-55</li> -->
-        </ul>
-        <button class="phone-button">+7 962 555-55-55</button>
-      </div>
-  </div>
+
+      <!-- Десктопное меню -->
+      <div class="menu-wrapper">
+        <div class="menu-logo">
+          <img src="pictures/vectors/hlebny-dom-logo.png" alt="">
+        </div>
+          <ul class="menu-items">
+            <li class="menu-item">Условия</li>
+            <li class="menu-item">Призы</li>
+            <li class="menu-item">Победители</li>
+            <!-- <li class="menu-item phone-button">+7 962 555-55-55</li> -->
+          </ul>
+          <button class="phone-button">+7 962 555-55-55</button>
+        </div>
+    </div>
+  <!-- </div> -->
 </nav>
 
+<!-- Первый блок -->
 <div class="ftuit">
   <div class="container">
     <div class="fruit-about">
@@ -80,9 +99,10 @@
   </div>
 </div>
 
+<!-- Условия -->
 <section class="action">
   <div class="container">
-    <h2 class="action-title">Условия акции</h2>
+    <h2 class="action-title" id="conditions">Условия акции</h2>
     <img src="pictures/vectors/vector2.svg" class="dotted-line" alt="">
       <div class="action-rules">
         <div class="action-rule">
@@ -111,135 +131,136 @@
   </div>
 </section>
 
-  <section class="prize">
-    
-    <div class="container">
-      <img src="pictures/prizes/img01.png" class="prize-img__pineapple" alt="">
-      <img src="pictures/prizes/img02.png" class="prize-img__part1" alt="">
-      <img src="pictures/prizes/img03.png" class="prize-img__part2" alt="">
-      <h2 class="prize-title">
-        Уникальные призы
-      </h2>
-      <div class="prize-items">
-        <div class="prize-item">
-          <img src="pictures/prizes/pled.png" class="prize-img" alt="">
-          <div class="gradient-img"></div>
-          <p class="prize-item__text">
-            Ткань пледа изготовлена жаккардовым плетением, поэтому его декоративный орнамент виден с обеих сторон.
-          </p>
-          <p class="prize-item__text">
-            Можно уютно укутаться лежа на диване.
-          </p>
-          <p class="prize-item__text">
-            Размер: 130х170 см.
-          </p>
-          <button class="prize-item__button">Осталось 25 шт</button>
-        </div>
-        <div class="prize-item">
-          <img src="pictures/prizes/product.png" class="prize-img" alt="">
-          <div class="gradient-img"></div>
-          <p class="prize-item__text">
-            Подарочная корзина с широким ассортиментом продукции “Хлебный Дом”.
-          </p>
-          <p class="prize-item__text">
-            Идеальный подарок вашему аппетиту!
-          </p>
-          <p class="prize-item__text">
-            В наборе 25 позиций.
-          </p>
-          <button class="prize-item__button">Осталось 74 шт</button>
-        </div>
-        <div class="prize-item">
-          <img src="pictures/prizes/pokryvalo.png" class="prize-img" alt="">
-          <div class="gradient-img"></div>
-          <p class="prize-item__text">
-            Мягкий и простой в уходе плед, который можно стирать в машине. 
-          </p>
-          <p class="prize-item__text">
-            Можно использовать как покрывало для кровати или одеяло.
-          </p>
-          <p class="prize-item__text">
-            Размер: 150х250 см.
-          </p>
-          <button class="prize-item__button">Осталось 36 шт</button>
-        </div>
+<!-- Призы -->
+<section class="prize">
+  <div class="container">
+    <img src="pictures/prizes/img01.png" class="prize-img__pineapple" alt="">
+    <img src="pictures/prizes/img02.png" class="prize-img__part1" alt="">
+    <img src="pictures/prizes/img03.png" class="prize-img__part2" alt="">
+    <h2 class="prize-title" id="prizes">
+      Уникальные призы
+    </h2>
+    <div class="prize-items">
+      <div class="prize-item">
+        <img src="pictures/prizes/pled.png" class="prize-img" alt="">
+        <div class="gradient-img"></div>
+        <p class="prize-item__text">
+          Ткань пледа изготовлена жаккардовым плетением, поэтому его декоративный орнамент виден с обеих сторон.
+        </p>
+        <p class="prize-item__text">
+          Можно уютно укутаться лежа на диване.
+        </p>
+        <p class="prize-item__text">
+          Размер: 130х170 см.
+        </p>
+        <button class="prize-item__button">Осталось 25 шт</button>
+      </div>
+      <div class="prize-item">
+        <img src="pictures/prizes/product.png" class="prize-img" alt="">
+        <div class="gradient-img"></div>
+        <p class="prize-item__text">
+          Подарочная корзина с широким ассортиментом продукции “Хлебный Дом”.
+        </p>
+        <p class="prize-item__text">
+          Идеальный подарок вашему аппетиту!
+        </p>
+        <p class="prize-item__text">
+          В наборе 25 позиций.
+        </p>
+        <button class="prize-item__button">Осталось 74 шт</button>
+      </div>
+      <div class="prize-item">
+        <img src="pictures/prizes/pokryvalo.png" class="prize-img" alt="">
+        <div class="gradient-img"></div>
+        <p class="prize-item__text">
+          Мягкий и простой в уходе плед, который можно стирать в машине. 
+        </p>
+        <p class="prize-item__text">
+          Можно использовать как покрывало для кровати или одеяло.
+        </p>
+        <p class="prize-item__text">
+          Размер: 150х250 см.
+        </p>
+        <button class="prize-item__button">Осталось 36 шт</button>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="winners">
-    <img src="pictures/fruits/08.png" alt="" class="winners-fruit">
-    <div class="container">
-      <h2 class="winners-title">
-        Наши победители!
-      </h2>
-      <div class="winners-wrapper">
-        <div class="winners-tabs">
-          <div class="witters-tab">
-            <p class="winners-tab__text">
-              Первая неделя
-            </p>
-          </div>
-          <div class="witters-tab active">
-            <p class="winners-tab__text">
-              Вторая неделя
-            </p>
-          </div>
-          <div class="witters-tab">
-            <p class="winners-tab__text">
-              Третья неделя
-            </p>
-          </div>
-          <div class="witters-tab"><p class="winners-tab__text">
-            Четвертая неделя
-          </p></div>
+<!-- Победители -->
+<section class="winners">
+  <img src="pictures/fruits/08.png" alt="" class="winners-fruit">
+  <div class="container">
+    <h2 class="winners-title" id="winners">
+      Наши победители!
+    </h2>
+    <div class="winners-wrapper">
+      <div class="winners-tabs">
+        <div class="witters-tab">
+          <p class="winners-tab__text">
+            Первая неделя
+          </p>
         </div>
-        <ul class="winners-list">
-          <li class="winners-list__item">
-            <img src="pictures/winners/01.png" alt="">
-          </li>
-          <li class="winners-list__item">
-            <img src="pictures/winners/02.png" alt="">
-          </li>
-          <!-- <li class="winners-list__item">
-            <img src="pictures/winners/03.png" alt="">
-          </li> -->
-          <li class="winners-list__item">
-            <img src="pictures/winners/04.png" alt="">
-          </li>
-          <li class="winners-list__item">
-            <img src="pictures/winners/05.png" alt="">
-          </li>
-          <!-- <li class="winners-list__item">
-            <img src="pictures/winners/06.png" alt="">
-          </li> -->
-          <li class="winners-list__item">
-            <img src="pictures/winners/07.png" alt="">
-          </li>
-          <li class="winners-list__item">
-            <img src="pictures/winners/08.png" alt="">
-          </li>
-          <li class="winners-list__item">
-            <img src="pictures/winners/09.png" alt="">
-          </li>
-          <li class="winners-list__item">
-            <img src="pictures/winners/10.png" alt="">
-          </li>
-          <li class="winners-list__item">
-            <img src="pictures/winners/11.png" alt="">
-          </li>
-          <li class="winners-list__item">
-            <img src="pictures/winners/12.png" alt="">
-          </li>
-        </ul>
-        <div class="button-wrapper">
-          <button class="all-winners">
-            Полный список победителей
-          </button>
+        <div class="witters-tab active">
+          <p class="winners-tab__text">
+            Вторая неделя
+          </p>
         </div>
+        <div class="witters-tab">
+          <p class="winners-tab__text">
+            Третья неделя
+          </p>
+        </div>
+        <div class="witters-tab"><p class="winners-tab__text">
+          Четвертая неделя
+        </p></div>
+      </div>
+      <ul class="winners-list">
+        <li class="winners-list__item">
+          <img src="pictures/winners/01.png" alt="">
+        </li>
+        <li class="winners-list__item">
+          <img src="pictures/winners/02.png" alt="">
+        </li>
+        <!-- <li class="winners-list__item">
+          <img src="pictures/winners/03.png" alt="">
+        </li> -->
+        <li class="winners-list__item">
+          <img src="pictures/winners/04.png" alt="">
+        </li>
+        <li class="winners-list__item">
+          <img src="pictures/winners/05.png" alt="">
+        </li>
+        <!-- <li class="winners-list__item">
+          <img src="pictures/winners/06.png" alt="">
+        </li> -->
+        <li class="winners-list__item">
+          <img src="pictures/winners/07.png" alt="">
+        </li>
+        <li class="winners-list__item">
+          <img src="pictures/winners/08.png" alt="">
+        </li>
+        <li class="winners-list__item">
+          <img src="pictures/winners/09.png" alt="">
+        </li>
+        <li class="winners-list__item">
+          <img src="pictures/winners/10.png" alt="">
+        </li>
+        <li class="winners-list__item">
+          <img src="pictures/winners/11.png" alt="">
+        </li>
+        <li class="winners-list__item">
+          <img src="pictures/winners/12.png" alt="">
+        </li>
+      </ul>
+      <div class="button-wrapper">
+        <button class="all-winners">
+          Полный список победителей
+        </button>
       </div>
     </div>
-  </section>
+  </div>
+</section>
   
   <footer class="footer">
     <div class="container">
@@ -265,4 +286,5 @@
   </footer>
 
 </body>
+<script src="scripts/main.js"></script>
 </html>
