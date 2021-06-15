@@ -69,3 +69,11 @@
 .winners-fruit {
   position: absolute;
 }
+
+@media (max-width: 1100px) {
+
+  .winners-fruit {
+    display: none;
+  }
+
+}
